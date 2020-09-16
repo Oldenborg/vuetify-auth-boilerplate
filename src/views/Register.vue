@@ -44,9 +44,13 @@ export default {
   },
   methods: {
     async register() {
-      this.$refs.form.validate();
+      if (!this.$refs.form.validate()) {
+        return;
+      }
+
       try {
         // TODO: Send this.data to the API
+        this.$router.push("/check-registration-email");
       } catch (error) {
         // TODO: Handle error
       }
