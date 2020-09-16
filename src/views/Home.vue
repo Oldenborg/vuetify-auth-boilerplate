@@ -1,5 +1,5 @@
-<template>
-  <div class="home"></div>
+<template lang="pug">
+  .home Home page
 </template>
 
 <script>
