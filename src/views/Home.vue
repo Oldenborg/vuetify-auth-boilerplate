@@ -9,7 +9,6 @@
           v-btn(name="submit_login" color="primary" @click="login" block) Login
         div: router-link(to="/password/reset") Forgot your password?
         div: router-link(to="/register") Don't have an account?
-        div: router-link(to="/") Back to frontpage
 </template>
 
 <script>
